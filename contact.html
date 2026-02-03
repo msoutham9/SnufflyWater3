@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Your Name</title>
+  <meta name="description" content="How to reach me." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Your Name</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container narrow">
+    <h1>Contact</h1>
+    <p class="lead">Pick the easiest way to reach me.</p>
+
+    <div class="card">
+      <ul class="bullets">
+        <li><strong>Email:</strong> <a class="text-link" href="mailto:you@example.com">you@example.com</a></li>
+        <li><strong>LinkedIn:</strong> <a class="text-link" href="#" target="_blank" rel="noreferrer">Your LinkedIn</a></li>
+        <li><strong>GitHub:</strong> <a class="text-link" href="#" target="_blank" rel="noreferrer">Your GitHub</a></li>
+      </ul>
+      <p class="muted">Optional: add a Calendly link or a short “best times to reach me.”</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© <span id="year"></span> Your Name</span>
+      <span class="muted"><a class="text-link" href="index.html">Home</a></span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
