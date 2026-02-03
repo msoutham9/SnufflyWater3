@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Your Name</title>
+  <meta name="description" content="About me." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Your Name</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container narrow">
+    <h1>About</h1>
+    <p class="lead">
+      Write 3–5 sentences: who you are, what you study/do, and what you’re aiming for.
+    </p>
+
+    <section class="section">
+      <h2>Highlights</h2>
+      <ul class="bullets">
+        <li>Achievement / experience #1</li>
+        <li>Achievement / experience #2</li>
+        <li>Achievement / experience #3</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>What I’m good at</h2>
+      <div class="chips">
+        <span class="chip">Financial analysis</span>
+        <span class="chip">Process improvement</span>
+        <span class="chip">Data modeling</span>
+        <span class="chip">Communication</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© <span id="year"></span> Your Name</span>
+      <span class="muted"><a class="text-link" href="index.html">Back to home</a></span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
