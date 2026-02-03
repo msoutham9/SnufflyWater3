@@ -1,0 +1,7 @@
+.center{
+  text-align: center;
+}
+
+.center .hero-image{
+  margin: 0 auto;
+}
